@@ -4,10 +4,10 @@ require_relative '../core/lib/spree/core/version.rb'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_admin'
+  s.name        = 'rails8_spree_admin'
   s.version     = Spree.version
-  s.authors     = ['Vendo Connect Inc.']
-  s.email       = 'hello@spreecommerce.org'
+  s.authors     = ['Ilton Garcia']
+  s.email       = 'admin@kpihunters.com'
   s.summary     = 'Admin Dashboard for Spree Commerce developed by Vendo Connect Inc.'
   s.description = 'Fully featured Admin Dashboard for Spree Commerce. Manage your store, orders, products, and more.'
   s.homepage    = 'https://getvendo.com'

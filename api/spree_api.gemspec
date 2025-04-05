@@ -1,10 +1,10 @@
 require_relative '../core/lib/spree/core/version'
 
 Gem::Specification.new do |s|
-  s.name          = 'spree_api'
+  s.name          = 'rails8_spree_api'
   s.version       = Spree.version
-  s.authors       = ['Ryan Bigg', 'Spark Solutions Sp. z o.o.', 'Vendo Connect Inc.']
-  s.email         = ['hello@spreecommerce.org']
+  s.authors       = ['Ilton Garcia']
+  s.email         = ['admin@kpihunters.com']
   s.summary       = %q{Spree's API}
   s.description   = %q{Spree's API}
   s.homepage      = 'https://spreecommerce.org'

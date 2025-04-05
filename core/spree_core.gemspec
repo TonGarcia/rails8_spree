@@ -4,10 +4,10 @@ require_relative 'lib/spree/core/version.rb'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_core'
+  s.name        = 'rails8_spree_core'
   s.version     = Spree.version
-  s.authors     = ['Sean Schofield', 'Spark Solutions Sp. z o.o.', 'Vendo Connect Inc.']
-  s.email       = 'hello@spreecommerce.org'
+  s.authors     = ['Ilton Garcia']
+  s.email       = 'admin@kpihunters.com'
   s.summary     = 'The bare bones necessary for Spree'
   s.description = 'Spree Models, Helpers, Services and core libraries'
   s.homepage    = 'https://spreecommerce.org'
