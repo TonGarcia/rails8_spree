@@ -12,6 +12,8 @@ platforms :ruby do
   gem 'pg' if ENV['DB'] == 'postgres' || ENV['CI']
 
   gem 'sqlite3', '>= 2.0'
+
+  gem 'doorkeeper', '~> 5.8', '>= 5.8.2'
 end
 
 group :test do
@@ -23,7 +25,6 @@ group :test do
   gem 'factory_bot_rails', '~> 6.2.0'
   gem 'multi_json'
   gem 'rspec-activemodel-mocks'
-  gem 'rspec-rails'
   gem 'rspec-retry'
   gem 'rspec_junit_formatter'
   gem 'rswag-specs'
@@ -46,6 +47,7 @@ group :test, :development do
   gem 'pry-byebug'
   gem 'puma'
   gem 'ffaker'
+  gem 'rspec-rails'
 end
 
 group :development do

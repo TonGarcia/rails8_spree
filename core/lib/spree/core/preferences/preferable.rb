@@ -33,6 +33,7 @@
 #   s.save!
 
 require 'spree/core/preferences/preferable_class_methods'
+require 'active_support/concern'
 
 module Spree::Preferences::Preferable
   extend ActiveSupport::Concern

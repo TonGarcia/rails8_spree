@@ -1,3 +1,5 @@
+require 'doorkeeper'
+
 Doorkeeper.configure do
   orm :active_record
   use_refresh_token

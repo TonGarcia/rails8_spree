@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
+  s.add_dependency 'rails', '~> 8.0'
   s.add_dependency 'rails8_spree_core', s.version
   s.add_dependency 'rails8_spree_api', s.version
   s.add_dependency 'rails8_spree_cli', s.version
