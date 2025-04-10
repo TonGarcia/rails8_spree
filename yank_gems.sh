@@ -1,0 +1,1 @@
+export VERSION=5.0.1 && gem yank rails8_spree_core -v ${VERSION} && gem yank rails8_spree_api -v ${VERSION} && gem yank rails8_spree_cli -v ${VERSION} && gem yank rails8_spree -v ${VERSION} && gem yank rails8_spree_emails -v ${VERSION} && gem yank rails8_spree_sample -v ${VERSION} && gem yank rails8_spree_admin -v ${VERSION} && gem yank rails8_spree_storefront -v ${VERSION}

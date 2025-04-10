@@ -1,5 +1,7 @@
 require 'spree/admin'
 
+puts 'rails8_spree_admin loaded'
+
 module Spree
   def self.admin_path
     Spree::Admin::RuntimeConfig[:admin_path]

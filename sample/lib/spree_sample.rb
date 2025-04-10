@@ -1,6 +1,8 @@
 require 'spree_core'
 require 'spree/sample'
 
+puts 'rails8_spree_core loaded'
+
 module SpreeSample
   class Engine < Rails::Engine
     engine_name 'spree_sample'
