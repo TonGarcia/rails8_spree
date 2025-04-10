@@ -6,6 +6,6 @@ when 'version', '-v', '--version'
   puts Gem.loaded_specs['spree_cli'].version
 when 'extension'
   ARGV.shift
-  require 'rails8_spree_cli/extension'
+  require 'spree_cli/extension'
   SpreeCli::Extension.start
 end

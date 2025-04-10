@@ -1,5 +1,5 @@
-require 'rails8_spree_core'
-require 'rails8_spree_api'
+require 'spree_core'
+require 'spree_api'
 
 require 'active_link_to'
 require 'chartkick'

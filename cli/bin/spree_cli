@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-require 'rails8_spree_cli'
+require 'spree_cli'

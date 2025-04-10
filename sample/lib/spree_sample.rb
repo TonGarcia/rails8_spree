@@ -1,4 +1,4 @@
-require 'rails8_spree_core'
+require 'spree_core'
 require 'spree/sample'
 
 module SpreeSample
