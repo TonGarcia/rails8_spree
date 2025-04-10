@@ -1,0 +1,1 @@
+gem build core/spree_core.gemspec && gem build api/spree_api.gemspec && gem build cli/spree_cli.gemspec && gem build spree.gemspec && gem build emails/spree_emails.gemspec && gem build sample/spree_sample.gemspec && gem build admin/spree_admin.gemspec && gem build storefront/spree_storefront.gemspec

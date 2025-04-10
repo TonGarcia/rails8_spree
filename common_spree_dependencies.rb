@@ -1,10 +1,7 @@
-# By placing all of Spree's shared dependencies in this file and then loading
-# it for each component's Gemfile, we can be sure that we're only testing just
-# the one component of Spree.
 source 'https://rubygems.org'
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-gem 'rails', ENV.fetch('RAILS_VERSION', '~> 7.2.0'), require: false
+gem 'rails', '< 9.0', require: false
 
 platforms :jruby do
   gem 'jruby-openssl'
@@ -16,8 +13,6 @@ platforms :ruby do
 
   gem 'sqlite3', '>= 2.0'
 end
-
-gem 'sprockets-rails', '>= 2.0.0'
 
 group :test do
   gem 'capybara'
@@ -60,3 +55,13 @@ group :development do
   gem 'ruby-lsp'
   gem 'ruby-lsp-rails'
 end
+
+# replaces sprockets with propshaft
+gem 'propshaft'
+
+#remove sidekiq and redis
+#gem 'sidekiq'
+#gem 'redis'
+
+#add solid_queue
+gem 'solid_queue'

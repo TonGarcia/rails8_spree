@@ -1,7 +1,7 @@
 require_relative '../core/lib/spree/core/version'
 
 Gem::Specification.new do |s|
-  s.name          = 'spree_api'
+  s.name          = 'rails8_spree_api'
   s.version       = Spree.version
   s.authors       = ['Ryan Bigg', 'Spark Solutions Sp. z o.o.', 'Vendo Connect Inc.']
   s.email         = ['hello@spreecommerce.org']
@@ -29,5 +29,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'bcrypt', '~> 3.1'
   s.add_dependency 'doorkeeper', '~> 5.3'
   s.add_dependency 'jsonapi-serializer', '~> 2.1'
-  s.add_dependency 'spree_core', s.version
+  s.add_dependency 'rails8_spree_core', s.version
 end

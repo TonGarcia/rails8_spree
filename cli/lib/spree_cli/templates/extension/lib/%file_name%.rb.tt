@@ -1,5 +1,5 @@
-require 'spree_core'
-require 'spree_extension'
+require 'rails8_spree_core'
+require 'rails8_spree_extension'
 require '<%=file_name%>/engine'
 require '<%=file_name%>/version'
 require '<%=file_name%>/configuration'

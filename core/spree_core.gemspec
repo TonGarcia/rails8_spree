@@ -4,7 +4,7 @@ require_relative 'lib/spree/core/version.rb'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_core'
+  s.name        = 'rails8_spree_core'
   s.version     = Spree.version
   s.authors     = ['Sean Schofield', 'Spark Solutions Sp. z o.o.', 'Vendo Connect Inc.']
   s.email       = 'hello@spreecommerce.org'
@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'i18n-tasks'
 
-  s.add_dependency 'rails', '>= 7.2', '< 8.0'
+  s.add_dependency 'rails', '~> 8.0'
 
   s.add_dependency 'activemerchant', '~> 1.67'
   s.add_dependency 'acts_as_list', '>= 0.8'

@@ -2,7 +2,7 @@ require_relative '../core/lib/spree/core/version'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_storefront'
+  s.name        = 'rails8_spree_storefront'
   s.version     = Spree.version
   s.authors     = ['Vendo Connect Inc.']
   s.email       = 'hello@spreecommerce.org'
@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.files        = Dir["{app,config,db,lib,vendor}/**/*", "LICENSE.md", "Rakefile", "README.md"].reject { |f| f.match(/^spec/) && !f.match(/^spec\/fixtures/) }
   s.require_path = 'lib'
 
-  s.add_dependency 'spree_core', ">= #{s.version}"
+  s.add_dependency 'rails8_spree_core', ">= #{s.version}"
 
   s.add_dependency 'active_link_to'
   s.add_dependency 'canonical-rails', '~> 0.2.14'
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'local_time', '~> 3.0'
   s.add_dependency 'mail_form'
   s.add_dependency 'payment_icons'
-  s.add_dependency 'sprockets', '>= 4.0'
+  s.add_dependency 'propshaft', '~> 1.1'
   s.add_dependency 'stimulus-rails'
   s.add_dependency 'tailwindcss-rails'
   s.add_dependency 'tailwindcss-ruby', '~> 3.4.17' # lock at Tailwind v3 for now, https://github.com/rails/tailwindcss-rails?tab=readme-ov-file#choosing-a-specific-version-of-tailwindcss

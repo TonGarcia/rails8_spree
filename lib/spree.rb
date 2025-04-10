@@ -1,2 +1,2 @@
-require 'spree_core'
-require 'spree_api'
+require 'rails8_spree_core'
+require 'rails8_spree_api'

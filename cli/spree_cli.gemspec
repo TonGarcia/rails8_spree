@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require_relative '../core/lib/spree/core/version.rb'
 
 Gem::Specification.new do |s|
-  s.name        = "spree_cli"
+  s.name        = "rails8_spree_cli"
   s.version     = Spree.version
   s.authors     = ['Chris Mar', 'Spark Solutions Sp. z o.o.', 'Vendo Connect Inc.']
   s.email       = ['hello@spreecommerce.org']

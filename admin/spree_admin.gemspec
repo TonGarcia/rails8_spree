@@ -4,7 +4,7 @@ require_relative '../core/lib/spree/core/version.rb'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_admin'
+  s.name        = 'rails8_spree_admin'
   s.version     = Spree.version
   s.authors     = ['Vendo Connect Inc.']
   s.email       = 'hello@spreecommerce.org'
@@ -26,8 +26,8 @@ Gem::Specification.new do |s|
   s.files        = Dir["{app,config,db,lib,vendor}/**/*", "LICENSE.md", "Rakefile", "README.md"].reject { |f| f.match(/^spec/) && !f.match(/^spec\/fixtures/) }
   s.require_path = 'lib'
 
-  s.add_dependency 'spree_core', ">= #{s.version}"
-  s.add_dependency 'spree_api', ">= #{s.version}"
+  s.add_dependency 'rails8_spree_core', ">= #{s.version}"
+  s.add_dependency 'rails8_spree_api', ">= #{s.version}"
 
   s.add_dependency 'active_link_to'
   s.add_dependency 'bootstrap', '~> 4.6', '>= 4.6.2.1'
@@ -42,6 +42,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'payment_icons'
   s.add_dependency 'turbo-rails'
   s.add_dependency 'stimulus-rails'
-  s.add_dependency 'sprockets', '>= 4.0'
+  s.add_dependency 'propshaft', '~> 1.1'
   s.add_dependency 'tinymce-rails', '~> 6.8.5'
 end
